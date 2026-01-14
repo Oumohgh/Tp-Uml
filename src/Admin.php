@@ -13,8 +13,12 @@ class Admin extends User {
     public function createProfuit(Produit $produit): Produit{
        
     }
-    public function ModifierProduit(Produit $produit):bool {}
-    public function SupprimerProduit(int $id):bool{}
+    public function ModifierProduit(Produit $produit):bool 
+    {
+
+    }
+    public function SupprimerProduit(int $id):bool
+    {}
     public function CreatCtegorie(Categorie $categorie):Categorie{}
     public function SupprimerCategorie(int $id): bool {}
     public function ModifierCategorie(Categorie $categorie):Categorie {}

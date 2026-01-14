@@ -44,8 +44,8 @@ class User {
         
         echo "register" ;
     }
-    public function login($email, $password): Utilisateur{
-            echo "login";
-    }
+    // public function login($email, $password): User{
+    //         echo "login";
+    // }
  
 }
